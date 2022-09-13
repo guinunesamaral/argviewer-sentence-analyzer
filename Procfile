@@ -1,1 +1,1 @@
-web: flask --app main run
+web: waitress-serve  --host 127.0.0.1 main:app
