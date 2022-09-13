@@ -1,7 +1,6 @@
 from flask import request
 from flask import Flask
 from flask import jsonify
-
 from sentence_similarity import compare
 
 app = Flask(__name__)

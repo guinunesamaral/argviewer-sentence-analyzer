@@ -1,1 +1,1 @@
-web: waitress-serve  --host 127.0.0.1 main:app
+web: waitress-serve --host 127.0.0.1 --port $PORT main:app
