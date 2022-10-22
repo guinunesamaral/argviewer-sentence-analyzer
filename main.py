@@ -2,7 +2,7 @@ from flask import request
 from flask import Flask
 from flask import jsonify
 from sentence_similarity import compare
-from profanities import check_profanity
+from sentence_profanity import check_profanity
 
 app = Flask(__name__)
 
